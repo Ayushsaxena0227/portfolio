@@ -15,15 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+import aimock from "../assets/aimock.png";
+import livedocs from "../assets/livedocs.png";
 
 export const navLinks = [
   {
@@ -198,63 +198,61 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Smart Utility Management System",
-    description:
-      " System built with the MERN stack offers a comprehensive solution for managing utility services.",
+    name: "Ai-mock-Interview",
+    description: " AI-powered platform to help users prepare for interviews.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Clerk",
         color: "green-text-gradient",
       },
       {
-        name: "chartjs",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link:
-      "https://github.com/Ayushsaxena0227/Utilitymanagementsystem",
+    image: aimock,
+    source_code_link: "https://github.com/Ayushsaxena0227/ai-mock-interview",
   },
   {
-    name: "Triptides",
+    name: "Livedoc",
     description:
-      "The Triptides is a full-stack web application that allows users to search for flights, book tickets, and complete payments using PayPal.",
+      " Real Time Collaborative Document Editor, allowing multiple users from world to work together.",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "paypal",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/Ayushsaxena0227/Triptides",
+    image: livedocs,
+    source_code_link: "https://github.com/Ayushsaxena0227/livedocs",
   },
   {
-    name: "Trip Guide",
+    name: "Smart Utiltity Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Utiltiy Management System for Users to track thier Consumption.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
     ],
