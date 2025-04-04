@@ -24,6 +24,7 @@ import {
 } from "../assets";
 import aimock from "../assets/aimock.png";
 import livedocs from "../assets/livedocs.png";
+import storeit from "../assets/storeit.png";
 
 export const navLinks = [
   {
@@ -199,7 +200,8 @@ const testimonials = [
 const projects = [
   {
     name: "Ai-mock-Interview",
-    description: " AI-powered platform to help users prepare for interviews.",
+    description:
+      " n AI-powered platform designed to help users prepare for interviews, featuring personalized question sets, real-time feedback, and performance tracking to enhance interview readiness.",
     tags: [
       {
         name: "react",
@@ -218,9 +220,31 @@ const projects = [
     source_code_link: "https://github.com/Ayushsaxena0227/ai-mock-interview",
   },
   {
+    name: "Storeit",
+    description:
+      " A full-stack web app for tracking and organizing storage units efficiently, built using Next.js and Appwrite. It features real-time search, automated categorization, and role-based access control for seamless inventory management.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: storeit,
+    source_code_link:
+      "https://github.com/Ayushsaxena0227/Storeit-storage-management-app",
+  },
+  {
     name: "Livedoc",
     description:
-      " Real Time Collaborative Document Editor, allowing multiple users from world to work together.",
+      " A real-time collaborative document editor that allows multiple users across the world to work together seamlessly. It features synchronized editing and real-time updates, ensuring efficient teamwork and smooth document management.",
     tags: [
       {
         name: "Nextjs",
@@ -237,27 +261,6 @@ const projects = [
     ],
     image: livedocs,
     source_code_link: "https://github.com/Ayushsaxena0227/livedocs",
-  },
-  {
-    name: "Smart Utiltity Management System",
-    description:
-      "A Utiltiy Management System for Users to track thier Consumption.",
-    tags: [
-      {
-        name: "Reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
